@@ -45,16 +45,19 @@ body {
 .calculator-card {
   width: 100%;
   max-width: 30rem;
+  
 }
 
 .mortgage-form,
 .results-panel {
   padding: 1.5rem;
+
 }
 
 .mortgage-form {
   background: var(--white);
   border-radius: 1.5rem 1.5rem 0 0;
+  
 }
 
 .mortgage-form h1 {
@@ -88,10 +91,7 @@ body {
   margin-bottom: 1.25rem;
 }
 
-.field-row {
-  display: flex;
-  gap: 1rem;
-}
+
 
 .field-row .field {
   flex: 1;
@@ -150,6 +150,7 @@ label {
   background: var(--slate-900);
   color: var(--white);
   border-radius: 0 0 1.5rem 1.5rem;
+  
 }
 
 .results-panel.empty {
