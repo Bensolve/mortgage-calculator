@@ -62,7 +62,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <main className="app">
        <div className="calculator-card">
       <MortgageForm
         amount={amount}
@@ -79,7 +79,7 @@ function App() {
       />
       <ResultsPanel results={results} />
       </div>
-    </div>
+    </main>
   );
 }
 
